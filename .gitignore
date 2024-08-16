@@ -1,0 +1,82 @@
+# Fichiers de compilation et de lien
+##################################
+
+*.o
+*.obj
+*.exe
+*.elf
+*.dll
+*.so
+*.dylib
+*_i.c
+*_p.c
+
+# Fichiers de débogage
+########################
+
+*_d.c
+*.idb
+*.pdb
+*.sdb
+*.sym
+*.vbg
+
+# CMake
+#########
+
+build/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+install_manifest.txt
+
+# Autres fichiers et répertoires générés par des outils de build
+###################################################################
+
+*.ilk
+*.log
+*.lib
+*.map
+*.dsw
+*.ds_store
+.settings/
+
+# Visual Studio Code
+####################
+
+.vscode/
+
+# IntelliJ IDEA
+#################
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# macOS
+########
+
+.DS_Store
+coding-style.sh
+coding-style-reports.log
+
+# Projet
+#########
+zappy_server
+._zappy_server
+zappy_ai
+zappy_gui
+._zappy_gui
+/reference/*/font.ttf
+/reference/*/README.md
+/reference/*/REF-Zappy-linux
+*/*/__pycache__/
+*/*/REF-Zappy-linux/
+/REF-Zappy-macOs/
+/reference/*
+*__pycache__*
+log.txt
+trace1
+trace
+debug_log.txt
